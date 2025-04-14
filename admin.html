@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Article Admin - Tesla Crafted</title>
+    <link rel="stylesheet" href="styles.css" />
+    <style>
+      .admin-container {
+        max-width: 1200px;
+        margin: 2rem auto;
+        padding: 0 1rem;
+      }
+      .article-form {
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+      }
+      .form-group {
+        display: flex;
+        flex-direction: column;
+        gap: 0.5rem;
+      }
+      .form-group label {
+        font-weight: bold;
+      }
+      .form-group input,
+      .form-group select,
+      .form-group textarea {
+        padding: 0.5rem;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+      }
+      .form-group textarea {
+        min-height: 200px;
+        font-family: monospace;
+      }
+      .button-group {
+        display: flex;
+        gap: 1rem;
+        margin-top: 1rem;
+      }
+      button {
+        padding: 0.5rem 1rem;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        background-color: #2c3e50;
+        color: white;
+      }
+      button:hover {
+        background-color: #34495e;
+      }
+      button.save-btn {
+        background-color: #27ae60;
+      }
+      button.save-btn:hover {
+        background-color: #2ecc71;
+      }
+      .preview {
+        margin-top: 2rem;
+        padding: 1rem;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+      }
+    </style>
+  </head>
+  <body>
+    <header class="main-header">
+      <div class="header-overlay">
+        <nav>
+          <div class="logo">
+            <a href="index.html"
+              ><img src="images/logo.png" alt="Tesla Crafted Logo"
+            /></a>
+          </div>
+          <div class="nav-links">
+            <a href="index.html">Back to Site</a>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <div class="admin-container">
+      <h1>Article Management</h1>
+
+      <div class="button-group">
+        <button id="newArticleBtn">Add New Article</button>
+        <select id="articleSelect">
+          <option value="">Select Existing Article</option>
+        </select>
+      </div>
+
+      <form id="articleForm" class="article-form">
+        <div class="form-group">
+          <label for="articleId">ID</label>
+          <input type="number" id="articleId" required />
+        </div>
+
+        <div class="form-group">
+          <label for="articleTitle">Title</label>
+          <input type="text" id="articleTitle" required />
+        </div>
+
+        <div class="form-group">
+          <label for="articleExcerpt">Excerpt</label>
+          <textarea id="articleExcerpt" required></textarea>
+        </div>
+
+        <div class="form-group">
+          <label for="articleCategory">Category</label>
+          <select id="articleCategory" required>
+            <option value="Interior">Interior</option>
+            <option value="Exterior">Exterior</option>
+            <option value="Maintenance">Maintenance</option>
+            <option value="Electronics">Electronics</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label for="articleDate">Date</label>
+          <input type="text" id="articleDate" required />
+        </div>
+
+        <div class="form-group">
+          <label for="articleReadTime">Read Time</label>
+          <input type="text" id="articleReadTime" required />
+        </div>
+
+        <div class="form-group">
+          <label for="articleAuthor">Author</label>
+          <input type="text" id="articleAuthor" required />
+        </div>
+
+        <div class="form-group">
+          <label for="articleAuthorImage">Author Image Path</label>
+          <input type="text" id="articleAuthorImage" required />
+        </div>
+
+        <div class="form-group">
+          <label for="articleImage">Article Image Path</label>
+          <input type="text" id="articleImage" required />
+        </div>
+
+        <div class="form-group">
+          <label for="articleTags">Tags (comma-separated)</label>
+          <input type="text" id="articleTags" required />
+        </div>
+
+        <div class="form-group">
+          <label for="articleRating">Rating (0-5)</label>
+          <input
+            type="number"
+            id="articleRating"
+            min="0"
+            max="5"
+            step="0.1"
+            required
+          />
+        </div>
+
+        <div class="form-group">
+          <label for="articleContent">Content (HTML)</label>
+          <textarea id="articleContent" required></textarea>
+        </div>
+
+        <div class="button-group">
+          <button type="submit" class="save-btn">Save Article</button>
+          <button type="button" id="previewBtn">Preview Content</button>
+        </div>
+      </form>
+
+      <div id="preview" class="preview" style="display: none">
+        <h2>Preview</h2>
+        <div id="previewContent"></div>
+      </div>
+    </div>
+
+    <script src="admin.js"></script>
+  </body>
+</html>

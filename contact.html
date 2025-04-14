@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Us - Tesla Crafted</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <header class="main-header article-header">
+      <div class="header-overlay">
+        <nav>
+          <div class="logo">
+            <a href="index.html"
+              ><img src="images/logo.png" alt="Tesla Crafted Logo"
+            /></a>
+          </div>
+          <div class="nav-links">
+            <a href="index.html">Home</a>
+            <a href="index.html?category=Maintenance">Maintenance</a>
+            <a href="index.html?category=Interior">Interior</a>
+            <a href="index.html?category=Electronics">Electronics</a>
+            <a href="index.html?category=Exterior">Exterior</a>
+          </div>
+          <div class="search-bar">
+            <input
+              type="text"
+              placeholder="Search articles..."
+              aria-label="Search articles"
+            />
+            <button type="submit" aria-label="Search">
+              <i class="fas fa-search"></i>
+            </button>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <main class="contact-container">
+      <h1>Contact Us</h1>
+
+      <div class="contact-grid">
+        <div class="contact-form-container">
+          <h2>Send Us a Message</h2>
+          <form class="contact-form" id="contactForm">
+            <div class="form-group">
+              <label for="name">Your Name</label>
+              <input type="text" id="name" name="name" required />
+            </div>
+
+            <div class="form-group">
+              <label for="email">Your Email</label>
+              <input type="email" id="email" name="email" required />
+            </div>
+
+            <div class="form-group">
+              <label for="subject">Subject</label>
+              <select id="subject" name="subject">
+                <option value="general">General Inquiry</option>
+                <option value="suggestion">Product Suggestion</option>
+                <option value="feedback">Feedback</option>
+                <option value="collaboration">Collaboration</option>
+                <option value="other">Other</option>
+              </select>
+            </div>
+
+            <div class="form-group">
+              <label for="message">Your Message</label>
+              <textarea
+                id="message"
+                name="message"
+                rows="6"
+                required
+              ></textarea>
+            </div>
+
+            <button type="submit" class="submit-btn">Send Message</button>
+          </form>
+        </div>
+
+        <div class="contact-info-container">
+          <h2>Get In Touch</h2>
+
+          <div class="contact-info">
+            <div class="contact-item">
+              <i class="fas fa-envelope"></i>
+              <div class="contact-text">
+                <h3>Email Us</h3>
+                <p>falcontechbe@gmail.com</p>
+              </div>
+            </div>
+
+            <div class="contact-item">
+              <i class="fas fa-map-marker-alt"></i>
+              <div class="contact-text">
+                <h3>Location</h3>
+                <p>Woluwe-Saint-Pierre<br />Brussels, Belgium, 1150</p>
+              </div>
+            </div>
+
+            <!-- <div class="contact-item">
+              <i class="fas fa-phone"></i>
+              <div>
+                <h3>Call Us</h3>
+                <p>(555) 123-4567</p>
+              </div>
+            </div>
+          </div> -->
+
+          <div class="social-connect">
+            <h3>Connect With Us</h3>
+            <div class="social-icons">
+              <a href="https://t.me/TeslaManual_AssistantBot" target="_blank"
+                ><i class="fab fa-telegram"></i
+              ></a>
+              <a href="https://twitter.com/TeslaClubBE" target="_blank"
+                ><i class="fab fa-twitter"></i
+              ></a>
+              <a href="https://www.facebook.com/TeslaClubBE" target="_blank"
+                ><i class="fab fa-facebook"></i
+              ></a>
+              <a href="http://www.youtube.com/@TeslaclubBe" target="_blank"
+                ><i class="fab fa-youtube"></i
+              ></a>
+              <a href="https://www.instagram.com/TeslaClubBE/" target="_blank"
+                ><i class="fab fa-instagram"></i
+              ></a>
+            </div>
+          </div>
+
+          <div class="business-hours">
+            <h3>Business Hours</h3>
+            <p>Monday - Friday: 9am - 5pm CET</p>
+            <p>Saturday - Sunday: Closed</p>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer>
+      <div class="tesla-referral-banner">
+        <a
+          href="https://ts.la/michael713010"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          🎁 Thinking of buying a Tesla? Use our promo link and save up to
+          $1,000! 🎁
+        </a>
+      </div>
+      <div class="footer-content">
+        <div class="footer-logo">
+          <a href="index.html"
+            ><img
+              src="images/logo.png"
+              alt="Tesla Crafted Logo"
+              class="footer-logo-img"
+          /></a>
+          <p>
+            Our mission is to help Tesla owners find the best accessories and
+            products to enhance their driving experience.
+          </p>
+        </div>
+        <div class="footer-links">
+          <h3>Quick Links</h3>
+          <a href="about.html">About Us</a>
+          <a href="contact.html">Contact</a>
+          <a href="privacy-policy.html">Privacy Policy</a>
+          <a href="terms-of-service.html">Terms of Service</a>
+        </div>
+        <div class="footer-newsletter">
+          <h3>Get Updates</h3>
+          <div class="newsletter-form">
+            <input type="email" placeholder="Enter your email" />
+            <button>Subscribe</button>
+          </div>
+          <div class="social-icons">
+            <a href="https://t.me/TeslaManual_AssistantBot" target="_blank"
+              ><i class="fab fa-telegram"></i
+            ></a>
+            <a href="https://twitter.com/TeslaClubBE" target="_blank"
+              ><i class="fab fa-twitter"></i
+            ></a>
+            <a href="https://www.facebook.com/TeslaClubBE" target="_blank"
+              ><i class="fab fa-facebook"></i
+            ></a>
+            <a href="http://www.youtube.com/@TeslaclubBe" target="_blank"
+              ><i class="fab fa-youtube"></i
+            ></a>
+            <a href="https://www.instagram.com/TeslaClubBE/" target="_blank"
+              ><i class="fab fa-instagram"></i
+            ></a>
+          </div>
+          <p class="affiliate-disclosure">
+            This site participates in the Amazon Affiliate Program, which means
+            we may earn a commission from qualifying purchases made through
+            product links. These affiliate links help support our content at no
+            extra cost to you.
+          </p>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy;2025 TeslaCrafted. All rights reserved.</p>
+      </div>
+    </footer>
+
+    <script src="app.js"></script>
+    <script>
+      // Simple form handling example
+      document
+        .getElementById("contactForm")
+        .addEventListener("submit", function (e) {
+          e.preventDefault();
+
+          // In a real implementation, you would send this data to a server
+          const formData = {
+            name: document.getElementById("name").value,
+            email: document.getElementById("email").value,
+            subject: document.getElementById("subject").value,
+            message: document.getElementById("message").value,
+          };
+
+          // For demonstration, just show an alert
+          alert("Thank you for your message! We will get back to you soon.");
+
+          // Reset the form
+          this.reset();
+        });
+    </script>
+
+    <div class="cookie-consent" id="cookieConsent">
+      <div class="cookie-content">
+        <div class="cookie-text">
+          <p>
+            In order to enhance your experience across our platforms and show
+            you more relevant information, we use cookies and similar
+            technologies, both TeslaCrafted owned and third party owned, as well
+            as data sent directly from our servers.
+          </p>
+          <p>
+            For more information, see our
+            <a href="privacy-policy.html">Privacy Policy</a> and
+            <a href="terms-of-service.html">Terms of Service</a> at the bottom
+            of the page.
+          </p>
+        </div>
+        <div class="cookie-buttons">
+          <button class="cookie-decline" id="cookieDecline">Decline</button>
+          <button class="cookie-accept" id="cookieAccept">Accept</button>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
