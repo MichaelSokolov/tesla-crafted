@@ -12,9 +12,7 @@ const articles = [
     image: "images/wash-accessories.jpg",
     tags: ["Exterior", "All Models"],
     rating: 4.7,
-    content:'<section>
-      <p>
-        Owning a Tesla is more than just driving—you\'re investing in cutting-edge technology and a pristine finish that turns heads everywhere. After you\'ve spent time washing your electric powerhouse, the final steps—drying, safeguarding, and treating surfaces—can make the difference between a good wash and a showroom shine. Water spots, swirl marks, and trapped moisture in crevices can dull that glossy paint and stainless trims. Thankfully, a well-curated arsenal of post-wash accessories can eliminate these issues, protect your investment, and make each wash a breeze.
+    content:`<p>Owning a Tesla is more than just driving—you\'re investing in cutting-edge technology and a pristine finish that turns heads everywhere. After you\'ve spent time washing your electric powerhouse, the final steps—drying, safeguarding, and treating surfaces—can make the difference between a good wash and a showroom shine. Water spots, swirl marks, and trapped moisture in crevices can dull that glossy paint and stainless trims. Thankfully, a well-curated arsenal of post-wash accessories can eliminate these issues, protect your investment, and make each wash a breeze.
       </p>
       <p>
         In this guide, we\'ll explore eight top-rated products—from ultra-absorbent drying towels to specialized microfiber detergents and hydrophobic coatings—that every Tesla owner should consider. For each item, you\'ll find a concise description, insights from real Amazon reviews, a breakdown of pros and cons, and clear instructions on how to use it effectively.
@@ -257,7 +255,7 @@ const articles = [
       <p>
         Follow this sequence: wash, dry with premium towels, rejuvenate towels regularly, and finish with paint and glass sealants. With these accessories, your Tesla will maintain its showroom brilliance drive after drive.
       </p>
-    </section>',
+    </section>`,
     url: null,
   },
   {
