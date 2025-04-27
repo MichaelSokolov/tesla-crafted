@@ -12,16 +12,15 @@ const articles = [
     image: "images/wash-accessories.jpg",
     tags: ["Exterior", "All Models"],
     rating: 4.7,
-    content:`<p>Owning a Tesla is more than just driving—you\'re investing in cutting-edge technology and a pristine finish that turns heads everywhere. After you\'ve spent time washing your electric powerhouse, the final steps—drying, safeguarding, and treating surfaces—can make the difference between a good wash and a showroom shine. Water spots, swirl marks, and trapped moisture in crevices can dull that glossy paint and stainless trims. Thankfully, a well-curated arsenal of post-wash accessories can eliminate these issues, protect your investment, and make each wash a breeze.
+    content:`<section><p>Owning a Tesla is more than just driving—you\'re investing in cutting-edge technology and a pristine finish that turns heads everywhere. After you\'ve spent time washing your electric powerhouse, the final steps—drying, safeguarding, and treating surfaces—can make the difference between a good wash and a showroom shine. Water spots, swirl marks, and trapped moisture in crevices can dull that glossy paint and stainless trims. Thankfully, a well-curated arsenal of post-wash accessories can eliminate these issues, protect your investment, and make each wash a breeze.
       </p>
       <p>
-        In this guide, we\'ll explore eight top-rated products—from ultra-absorbent drying towels to specialized microfiber detergents and hydrophobic coatings—that every Tesla owner should consider. For each item, you\'ll find a concise description, insights from real Amazon reviews, a breakdown of pros and cons, and clear instructions on how to use it effectively.
+        In this guide, we\'ll explore eight top-rated products—from ultra-absorbent drying towels to specialized microfiber detergents and hydrophobic coatings—that every Tesla owner should consider. For each item, you\'ll find a concise description, insights from real Amazon reviews, a breakdown of pros and cons, and clear instructions on how to use it effectively. <strong> P.S: In the article, Amazon Affiliate links are used </strong>`,
       </p>
     </section>
 
     <!-- Product 1 -->
-    <section>
-      <h2>1. Ultra Absorbent Drying Cloth (Nuke Guys)</h2>
+      <h3>1. Ultra Absorbent Drying Cloth (Nuke Guys)</h3>
       <div class="product-image-container">
         <a href="https://amzn.to/4iyJ66Y" target="_blank">
           <img src="images/wash-1.jpg" width="250" alt="Ultra Absorbent Drying Cloth (Nuke Guys)" class="product-image-custom">
@@ -45,11 +44,9 @@ const articles = [
         <li><strong>Disadvantages:</strong> Bulkier when wet; requires sturdy wringing.</li>
       </ul>
       <p><strong>Usage Tips:</strong> Lay flat and drag across panels in straight lines. Wring out into a bucket when saturated, then continue until fully dry.</p>
-    </section>
 
     <!-- Product 2 -->
-    <section>
-      <h2>2. Nuke Guys Gamma Dryer L – Extremely Absorbent & Gentle on Paint</h2>
+      <h3>2. Nuke Guys Gamma Dryer L</h3>
       <div class="product-image-container">
         <a href="https://amzn.to/44dJNPw" target="_blank">
           <img src="images/wash-2.jpg" width="250" alt="Nuke Guys Gamma Dryer L" class="product-image-custom">
@@ -76,8 +73,7 @@ const articles = [
     </section>
 
     <!-- Product 3 -->
-    <section>
-      <h2>3. Ultra Absorbent Car Drying Cloth XXL</h2>
+      <h3>3. Ultra Absorbent Car Drying Cloth XXL</h3>
       <div class="product-image-container">
         <a href="https://amzn.to/42TTFfb" target="_blank">
           <img src="images/wash-3.jpg" width="250" alt="Ultra Absorbent Car Drying Cloth XXL" class="product-image-custom">
@@ -104,8 +100,7 @@ const articles = [
     </section>
 
     <!-- Product 4 -->
-    <section>
-      <h2>4. Chemical Guys 'Woolly Mammoth' Microfiber Dryer Towel</h2>
+      <h3>4. Chemical Guys 'Woolly Mammoth'</h3>
       <div class="product-image-container">
         <a href="https://amzn.to/3GsrtIJ" target="_blank">
           <img src="images/wash-4.jpg" width="250" alt="Chemical Guys Woolly Mammoth Microfiber Dryer Towel" class="product-image-custom">
@@ -132,11 +127,10 @@ const articles = [
     </section>
 
     <!-- Product 5 -->
-    <section>
-      <h2>5. SONAX Profiline Microfibre Wash (1 Litre)</h2>
+      <h3>5. SONAX Profiline Microfibre Wash (1 Litre)</h3>
       <div class="product-image-container">
         <a href="https://amzn.to/3YKH38z" target="_blank">
-          <img src="images/wash-5.jpg" width="250" alt="SONAX Profiline Microfibre Wash" class="product-image-custom">
+          <img src="images/wash-5.jpg" width="100" alt="SONAX Profiline Microfibre Wash" class="product-image-custom">
         </a>
       </div>
       <p>
@@ -157,14 +151,13 @@ const articles = [
         <li><strong>Disadvantages:</strong> Strong scent if overused; thorough rinse required.</li>
       </ul>
       <p><strong>Usage Tips:</strong> Mix 30ml per 5L warm water, soak 30 minutes, then machine wash low heat without softener.</p>
-    </section>
+
 
     <!-- Product 6 -->
-    <section>
-      <h2>6. Nuke Guys Microfibre Detergent</h2>
+      <h3>6. Nuke Guys Microfibre Detergent</h3>
       <div class="product-image-container">
         <a href="https://amzn.to/4cPfcdv" target="_blank">
-          <img src="images/wash-6.jpg" width="250" alt="Nuke Guys Microfibre Detergent" class="product-image-custom">
+          <img src="images/wash-6.jpg" width="100" alt="Nuke Guys Microfibre Detergent" class="product-image-custom">
         </a>
       </div>
       <p>
@@ -186,14 +179,12 @@ const articles = [
         <li><strong>Disadvantages:</strong> Must measure accurately; moderate price.</li>
       </ul>
       <p><strong>Usage Tips:</strong> Use 25ml per load, gentle cycle, air-dry or low-heat tumble to preserve fibers.</p>
-    </section>
 
     <!-- Product 7 -->
-    <section>
-      <h2>7. Gyeon Q²M WetCoat</h2>
+      <h3>7. Gyeon Q²M WetCoat</h3>
       <div class="product-image-container">
         <a href="https://amzn.to/42KPTEE" target="_blank">
-          <img src="images/wash-7.jpg" width="250" alt="Gyeon Q²M WetCoat" class="product-image-custom">
+          <img src="images/wash-7.jpg" width="100" alt="Gyeon Q²M WetCoat" class="product-image-custom">
         </a>
       </div>
       <p>
@@ -215,14 +206,12 @@ const articles = [
         <li><strong>Disadvantages:</strong> Limited longevity; premium cost.</li>
       </ul>
       <p><strong>Usage Tips:</strong> Spray panel-by-panel post-dry, spread with microfiber applicator, wait 1 min, buff off excess.</p>
-    </section>
 
     <!-- Product 8 -->
-    <section>
-      <h2>8. SONAX XTREME WindowClear</h2>
+      <h3>8. SONAX XTREME WindowClear</h3>
       <div class="product-image-container">
         <a href="https://amzn.to/4jt7x6Z" target="_blank">
-          <img src="images/wash-8.jpg" width="250" alt="SONAX XTREME WindowClear" class="product-image-custom">
+          <img src="images/wash-8.jpg" width="100" alt="SONAX XTREME WindowClear" class="product-image-custom">
         </a>
       </div>
       <p>
@@ -244,18 +233,16 @@ const articles = [
         <li><strong>Disadvantages:</strong> Glass must be perfectly clean; spray tip can clog.</li>
       </ul>
       <p><strong>Usage Tips:</strong> Spray on dry glass, spread evenly, allow to haze for 2 mins, then buff to clarity.</p>
-    </section>
 
     <!-- Conclusion -->
-    <section class="conclusion">
-      <h2>Conclusion & Recommendations</h2>
+      <h3>Conclusion & Recommendations</h3>
       <p>
         Pairing the right drying towels, detergents, and sealants turns a routine wash into a professional-grade detail. For most Tesla owners, the Nuke Guys Gamma Dryer L offers the best balance of safety and efficiency, while the XXL cloth excels on larger models. Keep microfiber performing with SONAX Profiline, and lock in shine with Gyeon WetCoat. Don\'t forget SONAX WindowClear for optimal visibility.
       </p>
       <p>
         Follow this sequence: wash, dry with premium towels, rejuvenate towels regularly, and finish with paint and glass sealants. With these accessories, your Tesla will maintain its showroom brilliance drive after drive.
       </p>
-    </section>`,
+      <p><strong>In the article, Amazon Affiliate links are used </strong></p>`,
     url: null,
   },
   {
