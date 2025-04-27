@@ -12,8 +12,7 @@ const articles = [
     image: "images/wash-accessories.jpg",
     tags: ["Exterior", "All Models"],
     rating: 4.7,
-    content:
-      '<section>
+    content:'<section>
       <p>
         Owning a Tesla is more than just driving—you\'re investing in cutting-edge technology and a pristine finish that turns heads everywhere. After you\'ve spent time washing your electric powerhouse, the final steps—drying, safeguarding, and treating surfaces—can make the difference between a good wash and a showroom shine. Water spots, swirl marks, and trapped moisture in crevices can dull that glossy paint and stainless trims. Thankfully, a well-curated arsenal of post-wash accessories can eliminate these issues, protect your investment, and make each wash a breeze.
       </p>
@@ -258,9 +257,7 @@ const articles = [
       <p>
         Follow this sequence: wash, dry with premium towels, rejuvenate towels regularly, and finish with paint and glass sealants. With these accessories, your Tesla will maintain its showroom brilliance drive after drive.
       </p>
-    </section>
-
-  </article>',
+    </section>',
     url: null,
   },
   {
