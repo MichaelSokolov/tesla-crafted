@@ -16,7 +16,7 @@ const articles = [
     <p>Owning a Tesla is more than just driving—you\'re investing in cutting-edge technology and a pristine finish that turns heads everywhere. After you\'ve spent time washing your electric powerhouse, the final steps—drying, safeguarding, and treating surfaces—can make the difference between a good wash and a showroom shine. Water spots, swirl marks, and trapped moisture in crevices can dull that glossy paint and stainless trims. Thankfully, a well-curated arsenal of post-wash accessories can eliminate these issues, protect your investment, and make each wash a breeze.
       </p>
       <p>
-        In this guide, we\'ll explore eight top-rated products—from ultra-absorbent drying towels to specialized microfiber detergents and hydrophobic coatings—that every Tesla owner should consider. For each item, you\'ll find a concise description, insights from real Amazon reviews, a breakdown of pros and cons, and clear instructions on how to use it effectively. <strong> P.S: In the article, Amazon Affiliate links are used </strong>
+        In this guide, we\'ll explore eight top-rated products—from ultra-absorbent drying towels to specialized microfiber detergents and hydrophobic coatings—that every Tesla owner should consider. For each item, you\'ll find a concise description, insights from real Amazon reviews, a breakdown of pros and cons, and clear instructions on how to use it effectively.<br> <strong> P.S: In the article, Amazon Affiliate links are used </strong>
       </p>
     </section>
 
@@ -37,7 +37,7 @@ const articles = [
       <ul>
         <li><strong>Advantages:</strong> Exceptional water retention; ultra-soft; sizable dimensions.</li>
         <li><strong>Disadvantages:</strong> Bulkier when wet; requires sturdy wringing.</li>
-      </ul><br>
+      </ul>
       <strong>Usage Tips:</strong> Lay flat and drag across panels in straight lines. Wring out into a bucket when saturated, then continue until fully dry.</p>
 
     <!-- Product 2 -->
@@ -57,7 +57,7 @@ const articles = [
       <ul>
         <li><strong>Advantages:</strong> Superior absorbency; minimal paint contact; ergonomic design.</li>
         <li><strong>Disadvantages:</strong> Higher cost; moderate coverage area.</li>
-      </ul><br>
+      </ul>
       <strong>Usage Tips:</strong> Drape over panels and let capillary action pull water in; lift and wring into bucket, repeating across the vehicle.</p>
     </section>
 
@@ -78,7 +78,7 @@ const articles = [
       <ul>
         <li><strong>Advantages:</strong> Enormous size; plush microfiber; machine-washable.</li>
         <li><strong>Disadvantages:</strong> Heavy when wet; slower to dry between uses.</li>
-      </ul><br>
+      </ul>
       <strong>Usage Tips:</strong> Fold into sections for easy handling, drag across surfaces, and wring often to maintain absorbency.</p>
     </section>
 
@@ -99,7 +99,7 @@ const articles = [
       <ul>
         <li><strong>Advantages:</strong> Deep-pile microfiber; gentle on paint; highly absorbent.</li>
         <li><strong>Disadvantages:</strong> Requires pre-wash; premium cost.</li>
-      </ul><br>
+      </ul>
       <strong>Usage Tips:</strong> Fluff fibers by shaking, then glide over moisture; wring and repeat until fully dry.</p>
     </section>
 
@@ -120,7 +120,7 @@ const articles = [
       <ul>
         <li><strong>Advantages:</strong> Restores absorbency; eco-friendly; easy to rinse.</li>
         <li><strong>Disadvantages:</strong> Strong scent if overused; thorough rinse required.</li>
-      </ul><br>
+      </ul>
       <strong>Usage Tips:</strong> Mix 30ml per 5L warm water, soak 30 minutes, then machine wash low heat without softener.</p>
 
 
@@ -141,7 +141,7 @@ const articles = [
       <ul>
         <li><strong>Advantages:</strong> Deep cleaning; fiber protection; eco-friendly.</li>
         <li><strong>Disadvantages:</strong> Must measure accurately; moderate price.</li>
-      </ul><br>
+      </ul>
       <strong>Usage Tips:</strong> Use 25ml per load, gentle cycle, air-dry or low-heat tumble to preserve fibers.</p>
 
     <!-- Product 7 -->
@@ -161,7 +161,7 @@ const articles = [
       <ul>
         <li><strong>Advantages:</strong> Quick application; instant results; gloss boost.</li>
         <li><strong>Disadvantages:</strong> Limited longevity; premium cost.</li>
-      </ul><br>
+      </ul>
       <strong>Usage Tips:</strong> Spray panel-by-panel post-dry, spread with microfiber applicator, wait 1 min, buff off excess.</p>
 
     <!-- Product 8 -->
@@ -181,7 +181,7 @@ const articles = [
       <ul>
         <li><strong>Advantages:</strong> Long-lasting beading; easy application; streak-free finish.</li>
         <li><strong>Disadvantages:</strong> Glass must be perfectly clean; spray tip can clog.</li>
-      </ul><br>
+      </ul>
       <strong>Usage Tips:</strong> Spray on dry glass, spread evenly, allow to haze for 2 mins, then buff to clarity.</p>
 
     <!-- Conclusion -->
